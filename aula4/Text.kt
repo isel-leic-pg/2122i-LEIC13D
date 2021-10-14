@@ -20,10 +20,10 @@ fun main(){
 
 	val c3 : Char = str1[2]
 
-	val c4 = c1 + c2
-
+	//val c4 = c1 + c2 Erro
+	
 	println(c3)
 
-	println(c4)
+	
 
 }
