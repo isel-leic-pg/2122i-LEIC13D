@@ -1,13 +1,13 @@
 fun main(){
 
 	print("Horas ?")
-	val hoursText : String = readLine()!!
+	val hours : Int = readLine()!!.toInt()
 	print("Minutos ?")
 	val  minutesText : String = readLine()!!
 	print("Segundos ?")
 	val  secondsText : String = readLine()!!
 
-	val hours : Int = hoursText.toInt()
+	//val hours : Int = hoursText.toInt()
 	val minutes : Int = minutesText.toInt()
 	val seconds : Int = secondsText.toInt()
 
