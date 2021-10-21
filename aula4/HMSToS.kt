@@ -15,4 +15,6 @@ fun main(){
 
 	println("O tempo total e " + totalSeconds + " segundos")
 
+	println("O tempo total e  $totalSeconds segundos")
+
 }
