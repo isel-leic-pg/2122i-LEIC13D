@@ -1,9 +1,12 @@
 fun main(){
 
-	print("A ? ")
+	/*print("A ? ")
 	val a : Int = readLine()!!.toInt()
 	print("B ? ")
-	val b : Int = readLine()!!.toInt()
+	val b : Int = readLine()!!.toInt()*/
+
+	val a : Int = readInt("A ? ")
+	val b : Int = readInt("B ? ")
 
 
 	if(a > b){
