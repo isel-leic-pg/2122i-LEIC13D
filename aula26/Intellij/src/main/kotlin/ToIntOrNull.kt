@@ -6,6 +6,4 @@ fun main(){
     val numbersInString : List<String> = str.split(' ')
     val numbers = numbersInString.mapNotNull{it.toIntOrNull()}
     println(numbers)
-
-
 }

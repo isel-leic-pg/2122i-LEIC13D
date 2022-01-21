@@ -1,3 +1,5 @@
+data class Time(val hours : Int, val minutes : Int, val seconds : Int)
+
 fun main(){
 
     val li = listOf<Int>(1,2,3)
